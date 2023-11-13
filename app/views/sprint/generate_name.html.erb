@@ -1,0 +1,23 @@
+
+<header>
+<div class="header">
+<img  width="140" height="40"   src="https://www.genzeon.com/wp-content/uploads/2022/03/genzeon-logo-notag-2022.png">   
+</div>
+</header>
+<%# --------------------------------------- %>
+<h1> Sprint Name Generator</h1>
+<%# --------------------------------------- %>
+<body style="background-color:powderblue;"><br><br>
+<%# --------------------------------------- %>
+<p> Sprint Name: <%= @random_sprint.name %></p><br><br>
+<%= button_to "Generate", generate_name_sprint_path, class: 'button'   %><br/><br>
+
+<%= form_with(url: sprint_create_path, method: :post) do |form| %>
+  <div class="form-group">
+    <%= form.label :text_field, placeholder='Enter your suggestion:' %><br><br>
+    <%= form.text_field :text_field, class: 'form-control' %>
+  </div><br>
+  <div class="submit">
+  <%= form.submit 'Submit', class: 'btn btn-primary' %></div>
+<% end %>
+<%# --------------------------------------- %>

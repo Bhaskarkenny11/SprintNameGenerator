@@ -1,0 +1,7 @@
+<%= form_with(url: sprint_create_path, method: :post) do |form| %>
+  <div class="form-group">
+    <%= form.label :text_field, 'Enter something:' %>
+    <%= form.text_field :text_field, class: 'form-control' %>
+  </div>
+  <%= form.submit 'Submit', class: 'btn btn-primary' %>
+<% end %>
