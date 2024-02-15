@@ -10,7 +10,7 @@
 [iEmployee logo ]([https://drive.google.com/file/d/1FYsPhhNrI3UueQHTj4IPwzS8EYE_zklT/view?usp=sharing](https://drive.google.com/file/d/1FYsPhhNrI3UueQHTj4IPwzS8EYE_zklT/view?usp=sharing))
 
 ## Tech Stack
-[![REACT JS](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![Static Badge](https://img.shields.io/badge/ReactJs-yellow)
 
 
 **Client:** React, Redux 
