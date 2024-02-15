@@ -2,12 +2,12 @@
 
 # iEmployee
 
-"[iEmployee](https://iemployee.genzeon.com)" is a comprehensive software solution with four key modules: Employee, Project Manager, Super User, and Project Code Generator. Employees use the system to log their work hours, which must total nine hours each day over five working days, excluding weekends. Once submitted, the Project Manager reviews and approves the hours. If no project is assigned, project manager allocates a project code.
+"[iEmployee](https://iemployee.genzeon.com)" is a comprehensive software solution with four key modules: Employee, Project Manager, Super User, and Project Code Generator. Employees use the system to log their work hours, totaling nine hours each day over five working days, excluding weekends. Once submitted, the Project Manager reviews and approves the hours. If no project is assigned, the project manager allocates a project code.
 
 
 ## Screenshots
 
-[iEmployee logo ](https://drive.google.com/file/d/1FYsPhhNrI3UueQHTj4IPwzS8EYE_zklT/view?usp=sharing)
+[iEmployee logo ]([https://drive.google.com/file/d/1FYsPhhNrI3UueQHTj4IPwzS8EYE_zklT/view?usp=sharing](https://drive.google.com/file/d/1FYsPhhNrI3UueQHTj4IPwzS8EYE_zklT/view?usp=sharing))
 
 ## Tech Stack
 [![REACT JS](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
